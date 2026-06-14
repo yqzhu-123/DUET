@@ -28,7 +28,7 @@ cross-platform consistent signals.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("dyxstat/DUET")
+devtools::install_github("yqzhu-123/DUET")
 ```
 
 ## Example

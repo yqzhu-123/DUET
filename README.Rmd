@@ -31,7 +31,7 @@ DUET is a knockoff-based framework for integrative feature selection from paired
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("dyxstat/DUET")
+devtools::install_github("yqzhu-123/DUET")
 ```
 
 ## Example

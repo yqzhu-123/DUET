@@ -1,0 +1,27 @@
+Package: DUET
+Title: FDR-Controlled Feature Selection from Paired 16S and Shotgun Microbiome Count Data
+Version: 1.1.0
+Authors@R: c(
+    person("Yuxuan", "Du", role = c("aut", "cre"), email = "yuxuan.du@utsa.edu"),
+    person("Yiqiao", "Zhu", role = "aut"))
+Description: DUET implements a knockoff-based framework for integrative feature selection from paired 16S and shotgun microbiome count data. DUET tests, for each taxon, a union null that it is not conditionally associated with the outcome in at least one platform, so discoveries reflect associations replicated across both technologies.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.5.1)
+Imports:
+    glmnet,
+    uwot,
+    ranger,
+    pscl,
+    methods,
+    RSpectra,
+    stats,
+    Matrix,
+    corpcor,
+    Rdsdp,
+    doParallel,
+    gtools
+
